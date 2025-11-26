@@ -54,7 +54,11 @@ Total||100%
 - The **portfolio's daily return** was calculated using the weighted average of the individual asset returns.
 
 **2. Scenario Definitions**
-ScenarioInitial InvestmentMonthly ContributionTotal TimeframeObjectiveA (Lump Sum)$5,000 (Jan 1, 2020)$05 YearsBenchmark for single-point entry.B (DCA)$1,000 (Jan 1, 2020)**$200**5 YearsSimulates the typical eToro copier behavior.
+
+|Scenario|Initial Investment|Monthly Contribution|Total Timeframe|
+| :--- | :--- | :--- | :--- |
+|Objective A| (Lump Sum)$5,000 (Jan 1, 2020) |$0|5 Years - Benchmark for single-point entry.|
+|Objective B| (DCA)$1,000 (Jan 1, 2020) and |**$200** |5 Years - Simulates the typical eToro copier behavior.|
 
 **3. Key Calculation (DCA Logic)**
 
@@ -78,10 +82,11 @@ Bashpip install yfinance pandas numpy matplotlib
 **Execution**
 1. Clone this repository:
    Bash
-   git clone [Your Repository URL]
-   cd [your-repo-name]
+   git clone [(https://github.com/Andalejo1109/Portfolio-management-and-optimization/)]
+   
+   cd [Portfolio-management-and-optimization]
 
-2. Run the Python script:
+3. Run the Python script:
    Bash
    python Simulacion_dca.py
    

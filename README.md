@@ -15,6 +15,10 @@ As an **Economist and Data Scientist**, the methodology prioritizes **evidence-b
 
 This is a historical backtest, not a forecast. Past returns do not predict future results.
 
+## Appendix — same question, longer sample (2013–2026)
+
+See **[APPENDIX_DCA_2013_2026.md](./APPENDIX_DCA_2013_2026.md)** for an extension to 2013–2026 with the live thesis weights (SPYG/SMH/BRK.B/IEMG/VTI = 31/22/20/20/7), **monthly contribution USD 200** [DEFAULT], initial DCA capital USD 1,000, and equal total capital contributed ($33,800) for DCA vs lump sum. Main finding on that sample: lump sum wins on terminal wealth; TWR of the core is nearly identical (~17.3%).
+
 ## Technical stack
 
 - **Language:** Python 3.x
